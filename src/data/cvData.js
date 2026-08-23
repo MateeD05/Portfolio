@@ -56,7 +56,7 @@ export const projects = [
       "Sitio web para un-resto bar con estética botánica y natural. Diseño y desarrollo completo de la landing page con enfoque en experiencia de usuario y rendimiento.",
     technologies: ["HTML", "CSS", "JavaScript"],
     url: "https://raiz-example.com",
-    image: "/img/raiz-preview.jpg",
+    image: "/img/hostigerclon-preview.png",
   },
   {
     name: "HostigerClon",
@@ -64,6 +64,6 @@ export const projects = [
       "Clon de la página de Hostinger replicando su diseño y estructura con HTML, CSS y JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript"],
     url: "",
-    image: "/img/hostigerclon-preview.png",
+    image: "/img/raiz-preview.jpg",
   },
 ];
