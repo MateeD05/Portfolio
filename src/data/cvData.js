@@ -8,7 +8,7 @@ export const personalInfo = {
 };
 
 export const about = {
-  text: "Soy estudiante de la Licenciatura en Informática en la Universidad Nacional de Quilmes (1er año, con diplomatura intermedia en curso). Me especializo en el desarrollo de landing pages y sitios institucionales, trabajando principalmente con HTML, CSS y JavaScript. Busco seguir creciendo como desarrollador y aportar valor en proyectos web modernos y accesibles.",
+  text: "Tengo 21 años, soy estudiante de la Licenciatura en Informática en la Universidad Nacional de Quilmes (1er año, con diplomatura intermedia en curso). Me especializo en el desarrollo de landing pages y sitios institucionales, trabajando principalmente con HTML, CSS y JavaScript. Busco seguir creciendo como desarrollador y aportar valor en proyectos web modernos y accesibles.",
 };
 
 export const education = [
