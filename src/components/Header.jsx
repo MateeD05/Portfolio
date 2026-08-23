@@ -1,10 +1,18 @@
 import { personalInfo } from "../data/cvData";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
+import DarkModeToggle from "./DarkModeToggle";
 import styles from "../styles/header.module.css";
 
 export default function Header() {
+  const ref = useScrollAnimation();
+
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} fade-in`} ref={ref}>
       <div className={styles.container}>
+        <div className={styles.topRow}>
+          <div />
+          <DarkModeToggle />
+        </div>
         <h1 className={styles.name}>{personalInfo.name}</h1>
         <p className={styles.title}>{personalInfo.title}</p>
 

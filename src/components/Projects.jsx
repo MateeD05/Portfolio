@@ -1,15 +1,22 @@
 import { projects } from "../data/cvData";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 import styles from "../styles/projects.module.css";
 
 export default function Projects() {
+  const ref = useScrollAnimation();
+
   return (
-    <section className={styles.section} aria-labelledby="projects-heading">
-      <h2 id="projects-heading" className={styles.heading}>
+    <section
+      className={`${styles.section} fade-in`}
+      aria-labelledby="projects-heading"
+      ref={ref}
+    >
+      <h2 id="projects-heading" className="section-heading">
         Proyectos destacados
       </h2>
       <div className={styles.grid}>
-        {projects.map((project, index) => (
-          <article key={index} className={styles.card}>
+        {projects.map((project) => (
+          <article key={project.name} className={styles.card}>
             <div className={styles.imageWrapper}>
               <img
                 src={project.image}
@@ -22,8 +29,8 @@ export default function Projects() {
               <h3 className={styles.name}>{project.name}</h3>
               <p className={styles.description}>{project.description}</p>
               <ul className={styles.tech}>
-                {project.technologies.map((tech, i) => (
-                  <li key={i} className={styles.techItem}>
+                {project.technologies.map((tech) => (
+                  <li key={tech} className={styles.techItem}>
                     {tech}
                   </li>
                 ))}

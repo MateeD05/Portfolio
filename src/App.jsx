@@ -9,15 +9,20 @@ import Contact from "./components/Contact";
 export default function App() {
   return (
     <>
+      <a href="#main-content" className="skip-link">
+        Saltar al contenido principal
+      </a>
       <Header />
-      <main>
+      <main id="main-content">
         <About />
         <Education />
         <Experience />
         <Skills />
         <Projects />
       </main>
-      <Contact />
+      <footer>
+        <Contact />
+      </footer>
     </>
   );
 }

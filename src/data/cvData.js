@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "matedominguez3@gmail.com",
   linkedin: "https://linkedin.com/in/mateo-dominguez",
   github: "https://github.com/MateeD05",
-  cvPdf: "/cv.pdf",
+  cvPdf: "/CV_Mateo_Dominguez.pdf",
 };
 
 export const about = {
@@ -32,9 +32,9 @@ export const experience = [
   {
     role: "Práctica profesional",
     company: "Raiz",
-    period: "20XX — 20XX",
+    period: "2023 — 2026",
     description:
-      "Desarrollle una pagina para un restaurante utilizando HTML, CSS, JS",
+      "Desarrollé una página para un restaurante utilizando HTML, CSS, JS",
   },
 ];
 
@@ -56,14 +56,14 @@ export const projects = [
       "Sitio web para un-resto bar con estética botánica y natural. Diseño y desarrollo completo de la landing page con enfoque en experiencia de usuario y rendimiento.",
     technologies: ["HTML", "CSS", "JavaScript"],
     url: "https://raiz-example.com",
-    image: "/img/raiz-preview.svg",
+    image: "/img/raiz-preview.jpg",
   },
   {
-    name: "Nombre del Proyecto 2",
+    name: "HostigerClon",
     description:
-      "Describí brevemente este proyecto: qué resuelve, qué tecnologías usaste y cuál fue tu rol.",
+      "Clon de la página de Hostinger replicando su diseño y estructura con HTML, CSS y JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript"],
     url: "",
-    image: "/img/project2-preview.svg",
+    image: "/img/hostigerclon-preview.png",
   },
 ];
