@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Mateo Dominguez",
   title: "Estudiante de Lic. en Informática — Desarrollador Web",
   email: "matedominguez3@gmail.com",
-  linkedin: "https://linkedin.com/in/mateo-dominguez",
+  linkedin: "https://www.linkedin.com/in/mateo-dominguez-aa53bb388/",
   github: "https://github.com/MateeD05",
   cvPdf: "/CV_Mateo_Dominguez.pdf",
 };
