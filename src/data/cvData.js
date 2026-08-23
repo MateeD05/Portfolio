@@ -1,21 +1,21 @@
 export const personalInfo = {
   name: "Mateo Dominguez",
   title: "Estudiante de Lic. en Informática — Desarrollador Web",
-  email: "mateo@example.com",
+  email: "matedominguez3@gmail.com",
   linkedin: "https://linkedin.com/in/mateo-dominguez",
-  github: "https://github.com/mateo-dominguez",
+  github: "https://github.com/MateeD05",
   cvPdf: "/cv.pdf",
 };
 
 export const about = {
-  text: "Soy estudiante de la Licenciatura en Informática en la Universidad Nacional de Quilmes (3er año, con diplomatura intermedia en curso). Me especializo en el desarrollo de landing pages y sitios institucionales, trabajando principalmente con HTML, CSS y JavaScript. Busco seguir creciendo como desarrollador y aportar valor en proyectos web modernos y accesibles.",
+  text: "Soy estudiante de la Licenciatura en Informática en la Universidad Nacional de Quilmes (1er año, con diplomatura intermedia en curso). Me especializo en el desarrollo de landing pages y sitios institucionales, trabajando principalmente con HTML, CSS y JavaScript. Busco seguir creciendo como desarrollador y aportar valor en proyectos web modernos y accesibles.",
 };
 
 export const education = [
   {
     institution: "Universidad Nacional de Quilmes",
     degree: "Licenciatura en Informática",
-    status: "En curso — 3er año",
+    status: "En curso — 1er año",
     detail: "Diplomatura intermedia en proceso de obtención",
     period: "2023 — presente",
   },
@@ -30,11 +30,11 @@ export const experience = [
       "Desarrollo de landing pages y sitios institucionales para clientes. Implementación de diseños responsive, buenas prácticas de accesibilidad y SEO on-page.",
   },
   {
-    role: "Pasantía / Práctica profesional",
-    company: "Completar con el nombre de la empresa",
+    role: "Práctica profesional",
+    company: "Raiz",
     period: "20XX — 20XX",
     description:
-      "Describí brevemente las tareas realizadas, tecnologías utilizadas y logros alcanzados en este puesto.",
+      "Desarrollle una pagina para un restaurante utilizando HTML, CSS, JS",
   },
 ];
 
