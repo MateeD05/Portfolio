@@ -1,47 +1,50 @@
 export const skillIcons = {
   HTML: (
     <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M4 2.67l2.27 25.03L16 30.6l9.74-2.9L28 2.67H4z"
-        fill="#E44D26"
-      />
-      <path
-        d="M16 28.53l7.88-2.36L25.87 5.34H16v23.19z"
-        fill="#F16529"
-      />
-      <path
-        d="M16 12.09v4.83h6.64l-.64 7.16L16 25.49v-2.82l4.04-1.13.31-3.49H16v-3.27h7.32l-.24 2.67L21.44 24l-5.44 1.63v-3.12l5.51-1.54.66-7.43H16v2.09z"
+      <rect width="32" height="32" rx="4" fill="#E44D26" />
+      <text
+        x="16"
+        y="22"
+        textAnchor="middle"
         fill="#fff"
-      />
-      <path
-        d="M16 12.09v4.83h6.64l-.64 7.16L16 25.49v-2.82l4.04-1.13.31-3.49H16v-3.27h7.32l-.24 2.67-6.51 1.95"
-        fill="#EBEBEB"
-      />
+        fontSize="14"
+        fontWeight="700"
+        fontFamily="sans-serif"
+      >
+        H
+      </text>
     </svg>
   ),
   CSS: (
     <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M4 2.67l2.27 25.03L16 30.6l9.74-2.9L28 2.67H4z"
-        fill="#1572B6"
-      />
-      <path
-        d="M16 28.53l7.88-2.36L25.87 5.34H16v23.19z"
-        fill="#33A9DC"
-      />
-      <path
-        d="M16 13.18v3.87h6.16l-.42 4.67-5.74 1.7v3.12l5.73-1.7.41-4.58H16v-3.12h8.89l-.28 3.05-8.61 2.59"
+      <rect width="32" height="32" rx="4" fill="#1572B6" />
+      <text
+        x="16"
+        y="22"
+        textAnchor="middle"
         fill="#fff"
-      />
+        fontSize="14"
+        fontWeight="700"
+        fontFamily="sans-serif"
+      >
+        C
+      </text>
     </svg>
   ),
   JavaScript: (
     <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="32" height="32" rx="3" fill="#F7DF1E" />
-      <path
-        d="M8.8 24.04l1.92-1.1c.38.66.72 1.21 1.52 1.21.77 0 1.26-.3 1.26-1.47v-5.43h2.28v5.53c0 2.34-1.37 3.39-3.36 3.39-1.8 0-2.83-.93-3.62-2.03zM20.16 24.23l1.87-1.05c.5.83 1.15 1.46 2.31 1.46.98 0 1.6-.49 1.6-1.18 0-.82-.65-1.11-1.75-1.6l-.6-.27c-1.72-.73-2.86-1.66-2.86-3.6 0-1.78 1.36-3.14 3.49-3.14 1.53 0 2.62.53 3.39 1.92l-1.85 1.01c-.4-.74-.83-1.03-1.54-1.03-.7 0-1.15.45-1.15 1.03 0 .72.44 1.01 1.45 1.44l.6.27c2.01.86 3.15 1.74 3.15 3.72 0 2.13-1.68 3.28-3.94 3.28-2.21 0-3.64-1.05-4.42-2.44z"
+      <rect width="32" height="32" rx="4" fill="#F7DF1E" />
+      <text
+        x="16"
+        y="22"
+        textAnchor="middle"
         fill="#323330"
-      />
+        fontSize="13"
+        fontWeight="700"
+        fontFamily="sans-serif"
+      >
+        JS
+      </text>
     </svg>
   ),
   React: (
